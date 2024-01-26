@@ -1,0 +1,106 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333; /* Dark background for the whole page */
+  color: #fff; /* White text color for better readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.app-header {
+  background-color: #222; /* Dark background for the header */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.app-logo {
+  height: 20rem;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.app-logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.services-section {
+  background-color: transparent; /* Clear background for the services section */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.visitor-counter {
+  background-color: transparent; /* Clear background for the visitor counter section */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
+
+button {
+  background-color: #646cff; /* Accent color for the button */
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+button:hover {
+  background-color: #444; /* Darker accent color on hover */
+}
+
+.app-footer {
+  background-color: transparent; /* Clear background for the footer */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
+
+/* Additional styles for links in the footer */
+.app-footer a {
+  color: #646cff; /* Accent color for links */
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
